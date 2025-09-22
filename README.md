@@ -6,5 +6,5 @@
 ### 2. config.py: 參數檔。
 ### 3. utils.py: 函數檔。目前已收錄GBM, Heston model的模擬、繪圖、MC訂價。
 ## CRR bin tree with Heston model
-#### u_{i,t} = e^{\sqrt{v_t \delta t}}, d_{i,t}=u_{i,t}^{-1}
-#### p_{i,t} = \frac{e^{r\delta t}-d_{i,t}}{u_{i,t}-d_{i,t}}
+#### $u_{i,t} = e^{\sqrt{v_t \delta t}}, d_{i,t}=u_{i,t}^{-1}$
+#### $p_{i,t} = \frac{e^{r\delta t}-d_{i,t}}{u_{i,t}-d_{i,t}}$
