@@ -12,6 +12,10 @@
 ### $dS_t = \mu S_t dt + \sigma S_t dW_t$
 基於 Ito's lemma，我們可得:  
 ### $\ln(\frac{S_{t+\Delta t}}{S_{t}})\sim N((\mu - \frac{1}{2} \sigma^2) \Delta t, \sigma^2 \Delta t)$
+因此設定上升幅度與下降幅度為:  
+### $u = e^{\sigma \Delta t}, \quad d = e^{- \sigma \Delta t} = u^{-1}$
+以及上升機率為:  
+### $p = \frac{e^{r\Delta t} - d}{u - d}$
 先回顧Heston model:  
 ### $dS_t = \mu S_t dt + \sqrt{v_t} S_t dW_t^{(S)}$
 ### $dv_t = \kappa (\theta - v_t) dt + \xi \sqrt{v_t} dW_t^{(v)}$
